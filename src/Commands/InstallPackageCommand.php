@@ -45,9 +45,6 @@ class InstallPackageCommand extends Command
                     $response = Http::get("https://packagist.org/search.json?q={$packageName}&page={$page}");
                     $jsonResponse = $response->json();
 
-                    // Debug: Show API response
-                    dump($jsonResponse);
-
                     $packages = $jsonResponse['results'] ?? [];
 
                     if (empty($packages)) {

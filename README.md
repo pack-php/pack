@@ -13,7 +13,7 @@ A Laravel Artisan command to search, preview, and install PHP packages from Pack
 You can install the package via Composer:
 
 ```bash
-composer require your-org/packagist-explorer
+composer require pack-php/pack
 ```
 
 ## ⚡ Usage
