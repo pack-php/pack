@@ -52,14 +52,6 @@ Installing spatie/laravel-uuid...
 Package spatie/laravel-uuid installed successfully.
 ```
 
-## 🛠 Configuration
-
-You can publish the config file:
-
-```bash
-php artisan vendor:publish --provider="YourOrg\PackagistExplorer\PackagistExplorerServiceProvider"
-```
-
 ## 🧪 Testing
 
 You can run tests using PHPUnit:
