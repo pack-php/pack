@@ -1,0 +1,20 @@
+{
+    "name": "pack-php/pack",
+    "version": "1.0.0",
+    "description": "A Laravel Artisan command to search, preview, and install PHP packages from Packagist.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pack\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pack\\Providers\\PackageServiceProvider"
+            ]
+        }
+    }
+}
